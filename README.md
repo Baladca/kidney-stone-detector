@@ -28,10 +28,10 @@ Try the interactive application directly on Hugging Face Spaces:
 
 ## ✨ Key Features
 
-Advanced Medical Dashboard:** A sleek, responsive, vanilla HTML/CSS/JS frontend featuring drag-and-drop uploads and dynamic confidence threshold sliders.
-Automated PDF Reporting:** Instantly generates a downloadable diagnostic report containing the annotated scan, case ID, detection metrics, and timestamp using `html2pdf.js`.
-Extreme Memory Optimization:** The Flask backend utilizes a pure OpenCV/NumPy pipeline, decoding byte streams directly into arrays. By bypassing heavy intermediate libraries like PIL, it prevents Out-Of-Memory (OOM) crashes during high-resolution image processing.
-Production-Ready Concurrency:** Deployed via a single-worker Gunicorn setup with thread-safe (`gthread`) model locking, allowing the application to handle concurrent inference requests without RAM spiking.
+Advanced Medical Dashboard: A sleek, responsive, vanilla HTML/CSS/JS frontend featuring drag-and-drop uploads and dynamic confidence threshold sliders.
+Automated PDF Reporting: Instantly generates a downloadable diagnostic report containing the annotated scan, case ID, detection metrics, and timestamp using `html2pdf.js`.
+Extreme Memory Optimization: The Flask backend utilizes a pure OpenCV/NumPy pipeline, decoding byte streams directly into arrays. By bypassing heavy intermediate libraries like PIL, it prevents Out-Of-Memory (OOM) crashes during high-resolution image processing.
+Production-Ready Concurrency: Deployed via a single-worker Gunicorn setup with thread-safe (`gthread`) model locking, allowing the application to handle concurrent inference requests without RAM spiking.
 
 ---
 
